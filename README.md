@@ -2,9 +2,9 @@
 
 A modified [Hexo] default landscape theme of [YCMETRO](http://ycmetro.org/). 
 
-This repository is under construction.
-
 - [Preview](http://ycmetro.org/landscape-mod/)
+
+- [Addtional Features](https://github.com/Etzan/hexo-theme-landscape-mod/wiki)
 
 ## Installation
 
