@@ -1,18 +1,20 @@
-# Landscape
+# Landscape-mod
 
-A brand new default theme for [Hexo].
+A modified [Hexo] default landscape theme of [YCMETRO](http://ycmetro.org/). 
 
-- [Preview](http://hexo.io/hexo-theme-landscape/)
+This repository is under construction.
+
+- [Preview](http://ycmetro.org/hexo-theme-landscape-mod/)
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
+$ git clone https://github.com/Etzan/hexo-theme-landscape-mod.git themes/landscape-mod
 ```
 
-**Landscape requires Hexo 2.4 and above.** If you would like to enable the RSS, the [hexo-generate-feed] plugin is also required.
+**Landscape-mod requires Hexo 2.4 and above.** If you would like to enable the RSS, the [hexo-generate-feed] plugin is also required.
 
 ### Enable
 
@@ -21,7 +23,7 @@ Modify `theme` setting in `_config.yml` to `landscape`.
 ### Update
 
 ``` bash
-cd themes/landscape
+cd themes/landscape-mod
 git pull
 ```
 
@@ -96,7 +98,7 @@ All of them are enabled by default. You can edit them in `widget` setting.
 ### Requirements
 
 - [Grunt] 0.4+
-- Hexo 2.4+
+- [Hexo] 2.4+
 
 ### Grunt tasks
 

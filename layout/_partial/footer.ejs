@@ -4,8 +4,8 @@
   <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
+      <%= __('copyright') %> &copy; <%= date(new Date(), 'YYYY') %> <span style="font-weight: bold"><%= config.author || config.title %></span><br>
+      <%= __('powered_by') %> <a style="font-weight: bold" href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

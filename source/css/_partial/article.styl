@@ -11,19 +11,30 @@
 .article-date
   @extend $block-caption
   float: left
+  margin: 20px -8px -2px 20px
+  float: left
+  a&:hover
+    color: color-link
+  &:before
+    font-family: font-icon
+    color: color-border
+    content: "\f073  "
 
 .article-category
+  @extend $block-caption
   float: left
-  line-height: 1em
-  color: #ccc
-  text-shadow: 0 1px #fff
-  margin-left: 8px
+  margin: 20px 20px -2px
+  color: #999
   &:before
-    content: "\2022"
+    font-family: font-icon
+    content: "\f0db "
+    color: #ddd
 
 .article-category-link
   @extend $block-caption
-  margin: 0 12px 1em
+  margin: 0 5px 1em
+  a&:hover
+    color: color-link
 
 .article-header
   padding: article-padding article-padding 0
@@ -45,7 +56,7 @@
   padding: 0 article-padding
   p, table
     line-height: line-height
-    margin: line-height 0
+    margin: 20px 0
   h1, h2, h3, h4, h5, h6
     font-weight: bold
   h1, h2, h3, h4, h5, h6
@@ -107,7 +118,7 @@
     margin-top: 0.5em
     position: relative
     text-align: center
-  // http://webdesignerwall.com/tutorials/css-elastic-videos
+  // http://webdesignerwall.com/tutorials/css-elastic-videos (VIEW DEMO ELASTIC VIDEOS)
   .video-container
     position: relative
     padding-top: (9 / 16 * 100)% // 16:9 ratio
@@ -125,13 +136,14 @@
   display: inline-block
   line-height: 1em
   padding: 6px 15px
+  border: 1px solid color-border
   border-radius: 15px
-  background: color-background
+  background: #fff
   color: color-grey
   text-shadow: 0 1px #fff
   text-decoration: none
   &:hover
-    background: color-link
+    background: color-scarf
     color: #fff
     text-decoration: none
     text-shadow: 0 1px darken(color-link, 20%)
@@ -155,6 +167,7 @@
 
 .article-tag-list-link
   &:before
+    font-family: font-icon
     content: "#"
 
 .article-comment-link
@@ -232,6 +245,7 @@
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2)
   border-radius: 3px
   margin-left: -145px
+  width: 200px // This property may improve appearance of share-box on mobile device
   overflow: hidden
   z-index: 1
   &.on
