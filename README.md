@@ -4,7 +4,7 @@ A modified [Hexo] default landscape theme of [YCMETRO](http://ycmetro.org/).
 
 This repository is under construction.
 
-- [Preview](http://ycmetro.org/hexo-theme-landscape-mod/)
+- [Preview](http://ycmetro.org/landscape-mod/)
 
 ## Installation
 
