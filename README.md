@@ -18,7 +18,7 @@ $ git clone https://github.com/Etzan/hexo-theme-landscape-mod.git themes/landsca
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `landscape`.
+Modify `theme` setting in `_config.yml` to `landscape-mod`.
 
 ### Update
 
