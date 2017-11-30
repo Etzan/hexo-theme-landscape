@@ -2,7 +2,7 @@
 
 A modified [Hexo] default landscape theme of [YCMETRO](http://ycmetro.org/). 
 
-- [Preview](http://ycmetro.org/landscape-mod/)
+- [Preview](http://ycmetro.org/hexo-theme-landscape-mod/)
 
 - [Addtional Features](https://github.com/Etzan/hexo-theme-landscape-mod/wiki)
 
