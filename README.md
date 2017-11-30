@@ -2,16 +2,16 @@
 
 A modified [Hexo] default landscape theme of [YCMETRO](http://ycmetro.org/). 
 
-- [Preview](http://ycmetro.org/hexo-theme-landscape-mod/)
+- [Preview](http://ycmetro.org/landscape-mod/)
 
-- [Addtional Features](https://github.com/Etzan/hexo-theme-landscape-mod/wiki)
+- [Addtional Features](https://github.com/Etzan/landscape-mod/wiki)
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/Etzan/hexo-theme-landscape-mod.git themes/landscape-mod
+$ git clone https://github.com/Etzan/landscape-mod.git themes/landscape-mod
 ```
 
 **Landscape-mod requires Hexo 2.4 and above.** If you would like to enable the RSS, the [hexo-generate-feed] plugin is also required.
